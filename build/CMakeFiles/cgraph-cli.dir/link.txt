@@ -1,0 +1,1 @@
+/usr/bin/gcc -g -rdynamic CMakeFiles/cgraph-cli.dir/cmd/cgraph.c.o -o cgraph-cli  -Wl,-rpath,/home/dtkhuat/index_edge/build:/home/linuxbrew/.linuxbrew/lib libcgraph.so.1.0.0 /home/linuxbrew/.linuxbrew/lib/libserd-0.so 
