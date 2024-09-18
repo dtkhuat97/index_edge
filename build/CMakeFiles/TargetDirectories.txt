@@ -1,4 +1,0 @@
-/home/dtkhuat/index_edge/build/CMakeFiles/cgraph.dir
-/home/dtkhuat/index_edge/build/CMakeFiles/cgraph-cli.dir
-/home/dtkhuat/index_edge/build/CMakeFiles/edit_cache.dir
-/home/dtkhuat/index_edge/build/CMakeFiles/rebuild_cache.dir
