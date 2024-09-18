@@ -111,7 +111,7 @@ Usage: cgraph-cli
 FURTHER ADDITIONS:
  * to compress a version graph:
  ./cgraph-cli [input] [output]
-                        [input]          input file of the version graph
+                        [input]          input file of the graph with indexed edges
                         [output]         output file of the compressed graph
 
    commands to read the compressed path:
