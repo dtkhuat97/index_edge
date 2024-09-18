@@ -107,6 +107,17 @@ Usage: cgraph-cli
                                         Use --decompress in this case.
        --node-count                     returns the number of nodes in the graph
        --edge-labels                    returns the number of different edge labels in the graph\n"
+
+FURTHER ADDITIONS:
+ * to compress a version graph:
+ ./cgraph-cli [input] [output]
+                        [input]          input file of the version graph
+                        [output]         output file of the compressed graph
+
+   commands to read the compressed path:
+          --locate-index  [index]         returns the edge with the given index 
+          --index-between [node1][node2]  returns all edges with their indices between node1 and node2 
+
 ```
 
 The command-line-tool allows via serd the Turtle, TriG, NTriples and NQuads formats for RDF-graphs. Additionally, there is a parser for hypergraphs. The formatting of a hypergraph file is one edge per line, each line starts with the label of the edge and is followed by the name of the nodes. The elements in a line can be seprarated by a white space or a tab. Note that the nodes are treated as named, so numbers would be inserted as names into the dictionary and the internally used numbers can differ.
